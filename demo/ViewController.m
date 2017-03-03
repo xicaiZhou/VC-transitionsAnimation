@@ -71,7 +71,6 @@
         self.demo.view.alpha = 0;
         [self.view addSubview:self.demo.view];
 
-
     self.zxcCell = [tableView cellForRowAtIndexPath:indexPath];
     _currentIndexPath = indexPath;
     _currentImage = [[UIImageView alloc] init];
